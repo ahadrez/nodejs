@@ -18,6 +18,7 @@ formats:
   - pdf
 
 python:
-  version: 3.7
+  version: 3.6
+  use_system_site_packages: true
   install:
     - requirements: docs/requirements.txt
