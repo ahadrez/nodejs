@@ -17,4 +17,8 @@ sphinx:
 formats:
   - pdf
 
-
+python:
+  system-site-packages: true
+  version: 3.7
+  install:
+    - requirements: docs/requirements.txt
